@@ -2,7 +2,9 @@
 
 namespace App\Controller;
 
+use App\Form\CarType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -16,8 +18,13 @@ class CarController extends AbstractController
     }
 
     #[Route('/add', name: 'app_car_add')]
-    public function add(): Response
+    public function add(Request $request): Response
     {
-        return $this->render('car/add.html.twig');
+        $form = $this->createForm(CarType::class);
+
+        return $this->render('car/add.html.twig', [
+            'carForm' => $form->createView(),
+        ]
+    );
     }
 }
