@@ -4,5 +4,22 @@
 
 {% block body %}
     <h2>Auto Übersicht</h2>
-    {{ dump()}}
+    <table>
+        <thead>
+            <tr>
+                <th> Bezeichnung </th>
+                <th> Kennzeichnen </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for car in cars %}
+                <tr>
+                    <td> {{car.description}}</td>
+                    <td> {{car.plate}}</td>
+                    <td> <a href="{{path('app_car_update', {'id': car.id})}}">bearbeiten</a> | <a href="{{path('app_car_delete', {'id': car.id})}}" onclick="return confirm('Soll das Auto wirklich gelöscht werden?');">Löschen</a> </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+        {{ dump() }}
 {% endblock %}
