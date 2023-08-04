@@ -2,9 +2,11 @@
 
 namespace App\Controller;
 
+use App\Entity\Trip;
 use App\Form\CarType;
 use App\Entity\Car;
 use App\Repository\CarRepository;
+use App\Repository\TripRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -64,16 +66,18 @@ class CarController extends AbstractController
     }
 
     #[Route('/delete/{id}', name: 'app_car_delete')]
-    public function delete(int $id, CarRepository $carRepository, EntityManagerInterface $entityManager): Response
+    public function delete(int $id, CarRepository $carRepository, EntityManagerInterface $entityManager, TripRepository $tripRepository): Response
     {
-        dump($id);
-        dump($carRepository->find($id));
-
         $car =  $carRepository->find($id);
 
         if(!$car instanceof Car){
             dd("Auto nicht gefunden");
         }
+
+        //TODO if car is part of trip return error page
+        // if($tripRepository->find){
+        //     dd("Auto ist Teil einer Fahrt und kann deshalb nicht gelöscht werden");
+        // }
 
         $entityManager->remove($car);
         $entityManager->flush();

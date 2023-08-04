@@ -1,20 +1,23 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Trip index{% endblock %}
+{% block title %}Fahrtenübersicht{% endblock %}
 
 {% block body %}
-    <h1>Trip index</h1>
-
+    <h1>Fahrtenübersicht</h1>
+    <p>
+        <a href="{{ path('app_trip_new') }}">Neue Fahrt anlegen</a>
+    </p>
     <table class="table">
         <thead>
             <tr>
-                <th>Id</th>
-                <th>StartLocation</th>
-                <th>EndLocation</th>
-                <th>StartDateTime</th>
-                <th>EndDateTime</th>
-                <th>DrivenKilometers</th>
-                <th>actions</th>
+                <th>#</th>
+                <th>Startort</th>
+                <th>Zieltort</th>
+                <th>Startzeitpunkt</th>
+                <th>Endzeitpunkt</th>
+                <th>Gefahrene Kilometer</th>
+                <th>Fahrzeug</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -23,21 +26,20 @@
                 <td>{{ trip.id }}</td>
                 <td>{{ trip.startLocation }}</td>
                 <td>{{ trip.endLocation }}</td>
-                <td>{{ trip.startDateTime ? trip.startDateTime|date('Y-m-d H:i:s') : '' }}</td>
-                <td>{{ trip.endDateTime ? trip.endDateTime|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ trip.startDateTime ? trip.startDateTime|date('d-m-Y H:i') : '' }}</td>
+                <td>{{ trip.endDateTime ? trip.endDateTime|date('d-m-Y H:i') : '' }}</td>
                 <td>{{ trip.drivenKilometers }}</td>
+                <td><a href="{{ path('app_car_update', {'id': trip.car.id})}}">{{ trip.car.description }}({{ trip.car.plate}})</td>
                 <td>
-                    <a href="{{ path('app_trip_show', {'id': trip.id}) }}">show</a>
-                    <a href="{{ path('app_trip_edit', {'id': trip.id}) }}">edit</a>
+                    <a href="{{ path('app_trip_show', {'id': trip.id}) }}">Detailansicht</a>
+                    <a href="{{ path('app_trip_edit', {'id': trip.id}) }}">Fahrt bearbeiten</a>
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="7">no records found</td>
+                <td colspan="7">Keine Fahrten gefunden</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
-
-    <a href="{{ path('app_trip_new') }}">Create new</a>
 {% endblock %}

@@ -1,42 +1,47 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Trip{% endblock %}
+{% block title %}Fahrt{% endblock %}
 
 {% block body %}
-    <h1>Trip</h1>
+    <h1>Fahrtdetails</h1>
+    <p>
+        <a href="{{ path('app_trip_index') }}">Zurück zur Fahrtenübersicht</a>
+    </p>
 
     <table class="table">
         <tbody>
             <tr>
-                <th>Id</th>
+                <th>#</th>
                 <td>{{ trip.id }}</td>
             </tr>
             <tr>
-                <th>StartLocation</th>
+                <th>Startort</th>
                 <td>{{ trip.startLocation }}</td>
             </tr>
             <tr>
-                <th>EndLocation</th>
+                <th>Zielort</th>
                 <td>{{ trip.endLocation }}</td>
             </tr>
             <tr>
-                <th>StartDateTime</th>
-                <td>{{ trip.startDateTime ? trip.startDateTime|date('Y-m-d H:i:s') : '' }}</td>
+                <th>Startzeitpunkt</th>
+                <td>{{ trip.startDateTime ? trip.startDateTime|date('d-m-Y H:i') : '' }}</td>
             </tr>
             <tr>
-                <th>EndDateTime</th>
-                <td>{{ trip.endDateTime ? trip.endDateTime|date('Y-m-d H:i:s') : '' }}</td>
+                <th>Endzeitpunkt</th>
+                <td>{{ trip.endDateTime ? trip.endDateTime|date('d-m-Y H:i') : '' }}</td>
             </tr>
             <tr>
-                <th>DrivenKilometers</th>
+                <th>Gefahrene Kilometer</th>
                 <td>{{ trip.drivenKilometers }}</td>
+            </tr>
+            <tr>
+                <th>Fahrzeug</th>
+                <td><a href="{{ path('app_car_update', {'id': trip.car.id})}}">{{ trip.car.description }}({{ trip.car.plate}})</td>
             </tr>
         </tbody>
     </table>
 
-    <a href="{{ path('app_trip_index') }}">back to list</a>
-
-    <a href="{{ path('app_trip_edit', {'id': trip.id}) }}">edit</a>
+    <a href="{{ path('app_trip_edit', {'id': trip.id}) }}">Fahrt bearbeiten</a>
 
     {{ include('trip/_delete_form.html.twig') }}
 {% endblock %}

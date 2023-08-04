@@ -20,8 +20,12 @@ class CarType extends AbstractType{
                 'label' => 'Bezeichnung',
                 'required' => false,
             ])
-            ->add('plate')
-            ->add('submit', SubmitType::class);
+            ->add('plate', TextType::class, [
+                'label' => 'Kennzeichen',
+            ])
+            ->add('submit', SubmitType::class,[
+                'label' => 'Speichern',
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver): void 
