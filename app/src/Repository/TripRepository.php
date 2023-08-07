@@ -21,6 +21,17 @@ class TripRepository extends ServiceEntityRepository
         parent::__construct($registry, Trip::class);
     }
 
+    public function filterByCar($value): array
+    {
+        return $this->createQueryBuilder('t')
+            ->andWhere('t.car = :val')
+            ->setParameter('val', $value)
+            ->orderBy('t.id', 'ASC')
+            ->setMaxResults(10)
+            ->getQuery()
+            ->getResult()
+        ;
+    }
 //    /**
 //     * @return Trip[] Returns an array of Trip objects
 //     */

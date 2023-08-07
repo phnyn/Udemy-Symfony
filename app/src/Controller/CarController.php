@@ -6,7 +6,6 @@ use App\Entity\Trip;
 use App\Form\CarType;
 use App\Entity\Car;
 use App\Repository\CarRepository;
-use App\Repository\TripRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -66,7 +65,7 @@ class CarController extends AbstractController
     }
 
     #[Route('/delete/{id}', name: 'app_car_delete')]
-    public function delete(int $id, CarRepository $carRepository, EntityManagerInterface $entityManager, TripRepository $tripRepository): Response
+    public function delete(int $id, CarRepository $carRepository, EntityManagerInterface $entityManager): Response
     {
         $car =  $carRepository->find($id);
 
@@ -74,10 +73,15 @@ class CarController extends AbstractController
             dd("Auto nicht gefunden");
         }
 
-        //TODO if car is part of trip return error page
-        // if($tripRepository->find){
-        //     dd("Auto ist Teil einer Fahrt und kann deshalb nicht gelöscht werden");
-        // }
+        $trip = $entityManager->getRepository(Trip::class);
+
+        $carFound = $trip->filterByCar($car);
+        
+        // https://symfonycasts.com/screencast/symfony-forms/flash-messages
+        if(count($carFound) > 0){
+            $this->addFlash('alert', "Kann nicht gelöscht werden, da Auto bei Fahrten benutzt wurde");
+            return $this->redirectToRoute('app_car_list');
+        }
 
         $entityManager->remove($car);
         $entityManager->flush();
