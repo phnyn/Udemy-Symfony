@@ -1,500 +1,606 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            13.37748370616913,
-            52.52710578155737
-          ],
-          "type": "Point"
-        }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": 1,
+        "link": "https://www.berlin.de"
       },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.621075936301878,
-            51.88002055490915
-          ],
-          "type": "Point"
-        }
+      "geometry": {
+        "coordinates": [
+          13.446015093979355,
+          52.54195134100783
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.365497884367358,
-            51.360709879743126
-          ],
-          "type": "Point"
-        }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": 2,
+        "link": "https://www.berlin.de"
       },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            13.295741777021505,
-            52.502310527511156
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            13.080620163954592,
-            52.40398764139877
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            13.428124308140355,
-            52.490556956547636
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.450424156442551,
-            51.88524876948128
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.620973882697683,
-            52.134275526724
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.72550625008256,
-            52.092181340352056
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            13.360323930158359,
-            52.50194942408939
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.55491060768901,
-            51.88851799610177
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.18304956305954,
-            52.73395795906998
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.179622272325446,
-            52.71008568016765
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.241313505535857,
-            52.73603319190846
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            10.575157318708591,
-            52.92138316271598
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            9.718077354617066,
-            52.390971491466416
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            9.787436426855862,
-            52.342570394407176
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            10.764524214754772,
-            51.48352886034678
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.511919535093057,
-            48.207820377906415
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.777411308653,
-            48.103996655122586
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            9.937278671219048,
-            49.805060286210164
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            8.683058913366324,
-            50.170000780065095
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            6.742222499754462,
-            51.28262425465826
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            8.81122735577486,
-            50.8453695759118
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            7.437994044256499,
-            51.56235135000398
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            7.117572938236208,
-            51.23679186027982
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.649242866244492,
-            50.92622693634945
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.896424862317645,
-            50.81645793076598
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            9.754180896350078,
-            49.85820736495063
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.161916635877617,
-            48.62706700490301
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.95135419477802,
-            48.518031596343945
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            10.120376446087931,
-            51.53958064335632
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            11.493609757606293,
-            52.11105692111397
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            12.58304151807684,
-            51.840368243494595
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "coordinates": [
-            13.168954397657131,
-            52.34656941465292
-          ],
-          "type": "Point"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -58.36638198069595,
-            71.53340488871895
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -13.782476474141102,
-            74.81092297509834
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            3.4952773650846147,
-            69.69939643559715
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            52.48657305643603,
-            -13.374826449348003
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            131.41654889836775,
-            15.113790561235243
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            39.0529887327462,
-            39.132767311712755
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            48.55387867209957,
-            50.00961168332444
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.2689165310514765,
-            -74.51332461999544
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.624915908763695,
-            -86.67853549189304
-          ]
-        },
-        "properties": {}
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            165.33298916120478,
-            -27.41223374403679
-          ]
-        },
-        "properties": {}
+      "geometry": {
+        "coordinates": [
+          13.460761349112175,
+          52.51620121141218
+        ],
+        "type": "Point"
       }
-    ]
-  }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": 3,
+        "link": "https://www.berlin.de"
+      },
+      "geometry": {
+        "coordinates": [
+          13.36846071515538,
+          52.56552853237349
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": 4,
+        "link": "https://www.berlin.de"
+      },
+      "geometry": {
+        "coordinates": [
+          13.476053761841541,
+          52.45783380978622
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": 5,
+        "link": "https://www.berlin.de"
+      },
+      "geometry": {
+        "coordinates": [
+          13.253221462105387,
+          52.519358490852
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "link": "https://www.berlin.de",
+        "name": 6
+      },
+      "geometry": {
+        "coordinates": [
+          13.37748370616913,
+          52.52710578155737
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "link": "https://www.berlin.de",
+        "name": 7
+      },
+      "geometry": {
+        "coordinates": [
+          12.621075936301878,
+          51.88002055490915
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "link": "https://www.berlin.de",
+        "name": 8
+      },
+      "geometry": {
+        "coordinates": [
+          12.365497884367358,
+          51.360709879743126
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "link": "https://www.berlin.de",
+        "name": 9
+      },
+      "geometry": {
+        "coordinates": [
+          13.295741777021505,
+          52.502310527511156
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "link": "https://www.berlin.de",
+        "name": 10
+      },
+      "geometry": {
+        "coordinates": [
+          13.080620163954592,
+          52.40398764139877
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "link": "https://www.berlin.de",
+        "name": 11
+      },
+      "geometry": {
+        "coordinates": [
+          13.428124308140355,
+          52.490556956547636
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "link": "https://www.berlin.de",
+        "name": 12
+      },
+      "geometry": {
+        "coordinates": [
+          12.450424156442551,
+          51.88524876948128
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "link": "https://www.berlin.de",
+        "name": 13
+      },
+      "geometry": {
+        "coordinates": [
+          11.620973882697683,
+          52.134275526724
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "link": "https://www.berlin.de",
+        "name": 14
+      },
+      "geometry": {
+        "coordinates": [
+          11.72550625008256,
+          52.092181340352056
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "link": "https://www.berlin.de",
+        "name": 15
+      },
+      "geometry": {
+        "coordinates": [
+          13.360323930158359,
+          52.50194942408939
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "link": "https://www.berlin.de",
+        "name": 16
+      },
+      "geometry": {
+        "coordinates": [
+          12.55491060768901,
+          51.88851799610177
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "link": "https://www.berlin.de",
+        "name": 17
+      },
+      "geometry": {
+        "coordinates": [
+          12.18304956305954,
+          52.73395795906998
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "link": "https://www.berlin.de",
+        "name": 18
+      },
+      "geometry": {
+        "coordinates": [
+          12.179622272325446,
+          52.71008568016765
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "link": "https://www.berlin.de",
+        "name": 19
+      },
+      "geometry": {
+        "coordinates": [
+          12.241313505535857,
+          52.73603319190846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "link": "https://www.berlin.de",
+        "name": 20
+      },
+      "geometry": {
+        "coordinates": [
+          10.575157318708591,
+          52.92138316271598
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "link": "https://www.berlin.de",
+        "name": 21
+      },
+      "geometry": {
+        "coordinates": [
+          9.718077354617066,
+          52.390971491466416
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "link": "https://www.berlin.de",
+        "name": 22
+      },
+      "geometry": {
+        "coordinates": [
+          9.787436426855862,
+          52.342570394407176
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "link": "https://www.berlin.de",
+        "name": 23
+      },
+      "geometry": {
+        "coordinates": [
+          10.764524214754772,
+          51.48352886034678
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "link": "https://www.berlin.de",
+        "name": 24
+      },
+      "geometry": {
+        "coordinates": [
+          11.511919535093057,
+          48.207820377906415
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "link": "https://www.berlin.de",
+        "name": 25
+      },
+      "geometry": {
+        "coordinates": [
+          11.777411308653,
+          48.103996655122586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "link": "https://www.berlin.de",
+        "name": 26
+      },
+      "geometry": {
+        "coordinates": [
+          9.937278671219048,
+          49.805060286210164
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "link": "https://www.berlin.de",
+        "name": 27
+      },
+      "geometry": {
+        "coordinates": [
+          8.683058913366324,
+          50.170000780065095
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "link": "https://www.berlin.de",
+        "name": 28
+      },
+      "geometry": {
+        "coordinates": [
+          6.742222499754462,
+          51.28262425465826
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "link": "https://www.berlin.de",
+        "name": 29
+      },
+      "geometry": {
+        "coordinates": [
+          8.81122735577486,
+          50.8453695759118
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "link": "https://www.berlin.de",
+        "name": 30
+      },
+      "geometry": {
+        "coordinates": [
+          7.437994044256499,
+          51.56235135000398
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "link": "https://www.berlin.de",
+        "name": 31
+      },
+      "geometry": {
+        "coordinates": [
+          7.117572938236208,
+          51.23679186027982
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "link": "https://www.berlin.de",
+        "name": 32
+      },
+      "geometry": {
+        "coordinates": [
+          11.649242866244492,
+          50.92622693634945
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "link": "https://www.berlin.de",
+        "name": 33
+      },
+      "geometry": {
+        "coordinates": [
+          11.896424862317645,
+          50.81645793076598
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "link": "https://www.berlin.de",
+        "name": 34
+      },
+      "geometry": {
+        "coordinates": [
+          9.754180896350078,
+          49.85820736495063
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "link": "https://www.berlin.de",
+        "name": 35
+      },
+      "geometry": {
+        "coordinates": [
+          12.161916635877617,
+          48.62706700490301
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "link": "https://www.berlin.de",
+        "name": 36
+      },
+      "geometry": {
+        "coordinates": [
+          11.95135419477802,
+          48.518031596343945
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "link": "https://www.berlin.de",
+        "name": 37
+      },
+      "geometry": {
+        "coordinates": [
+          10.120376446087931,
+          51.53958064335632
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "link": "https://www.berlin.de",
+        "name": 38
+      },
+      "geometry": {
+        "coordinates": [
+          11.493609757606293,
+          52.11105692111397
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "link": "https://www.berlin.de",
+        "name": 39
+      },
+      "geometry": {
+        "coordinates": [
+          12.58304151807684,
+          51.840368243494595
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "link": "https://www.berlin.de",
+        "name": 40
+      },
+      "geometry": {
+        "coordinates": [
+          13.168954397657131,
+          52.34656941465292
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
