@@ -6,7 +6,7 @@
       "properties": {
         "id": 1,
         "name": 1,
-        "link": "https://www.berlin.de"
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html"
       },
       "geometry": {
         "coordinates": [
@@ -21,7 +21,7 @@
       "properties": {
         "id": 2,
         "name": 2,
-        "link": "https://www.berlin.de"
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html"
       },
       "geometry": {
         "coordinates": [
@@ -36,7 +36,7 @@
       "properties": {
         "id": 3,
         "name": 3,
-        "link": "https://www.berlin.de"
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html"
       },
       "geometry": {
         "coordinates": [
@@ -51,7 +51,7 @@
       "properties": {
         "id": 4,
         "name": 4,
-        "link": "https://www.berlin.de"
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html"
       },
       "geometry": {
         "coordinates": [
@@ -66,7 +66,7 @@
       "properties": {
         "id": 5,
         "name": 5,
-        "link": "https://www.berlin.de"
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html"
       },
       "geometry": {
         "coordinates": [
@@ -80,7 +80,7 @@
       "type": "Feature",
       "properties": {
         "id": 6,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 6
       },
       "geometry": {
@@ -96,7 +96,7 @@
       "type": "Feature",
       "properties": {
         "id": 7,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 7
       },
       "geometry": {
@@ -111,7 +111,7 @@
       "type": "Feature",
       "properties": {
         "id": 8,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 8
       },
       "geometry": {
@@ -126,7 +126,7 @@
       "type": "Feature",
       "properties": {
         "id": 9,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 9
       },
       "geometry": {
@@ -141,7 +141,7 @@
       "type": "Feature",
       "properties": {
         "id": 10,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 10
       },
       "geometry": {
@@ -156,7 +156,7 @@
       "type": "Feature",
       "properties": {
         "id": 11,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 11
       },
       "geometry": {
@@ -171,7 +171,7 @@
       "type": "Feature",
       "properties": {
         "id": 12,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 12
       },
       "geometry": {
@@ -186,7 +186,7 @@
       "type": "Feature",
       "properties": {
         "id": 13,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 13
       },
       "geometry": {
@@ -201,7 +201,7 @@
       "type": "Feature",
       "properties": {
         "id": 14,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 14
       },
       "geometry": {
@@ -216,7 +216,7 @@
       "type": "Feature",
       "properties": {
         "id": 15,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 15
       },
       "geometry": {
@@ -231,7 +231,7 @@
       "type": "Feature",
       "properties": {
         "id": 16,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 16
       },
       "geometry": {
@@ -246,7 +246,7 @@
       "type": "Feature",
       "properties": {
         "id": 17,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 17
       },
       "geometry": {
@@ -261,7 +261,7 @@
       "type": "Feature",
       "properties": {
         "id": 18,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 18
       },
       "geometry": {
@@ -276,7 +276,7 @@
       "type": "Feature",
       "properties": {
         "id": 19,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 19
       },
       "geometry": {
@@ -291,7 +291,7 @@
       "type": "Feature",
       "properties": {
         "id": 20,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 20
       },
       "geometry": {
@@ -306,7 +306,7 @@
       "type": "Feature",
       "properties": {
         "id": 21,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 21
       },
       "geometry": {
@@ -321,7 +321,7 @@
       "type": "Feature",
       "properties": {
         "id": 22,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 22
       },
       "geometry": {
@@ -336,7 +336,7 @@
       "type": "Feature",
       "properties": {
         "id": 23,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 23
       },
       "geometry": {
@@ -351,7 +351,7 @@
       "type": "Feature",
       "properties": {
         "id": 24,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 24
       },
       "geometry": {
@@ -366,7 +366,7 @@
       "type": "Feature",
       "properties": {
         "id": 25,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 25
       },
       "geometry": {
@@ -381,7 +381,7 @@
       "type": "Feature",
       "properties": {
         "id": 26,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 26
       },
       "geometry": {
@@ -396,7 +396,7 @@
       "type": "Feature",
       "properties": {
         "id": 27,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 27
       },
       "geometry": {
@@ -411,7 +411,7 @@
       "type": "Feature",
       "properties": {
         "id": 28,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 28
       },
       "geometry": {
@@ -426,7 +426,7 @@
       "type": "Feature",
       "properties": {
         "id": 29,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 29
       },
       "geometry": {
@@ -441,7 +441,7 @@
       "type": "Feature",
       "properties": {
         "id": 30,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 30
       },
       "geometry": {
@@ -456,7 +456,7 @@
       "type": "Feature",
       "properties": {
         "id": 31,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 31
       },
       "geometry": {
@@ -471,7 +471,7 @@
       "type": "Feature",
       "properties": {
         "id": 32,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 32
       },
       "geometry": {
@@ -486,7 +486,7 @@
       "type": "Feature",
       "properties": {
         "id": 33,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 33
       },
       "geometry": {
@@ -501,7 +501,7 @@
       "type": "Feature",
       "properties": {
         "id": 34,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 34
       },
       "geometry": {
@@ -516,7 +516,7 @@
       "type": "Feature",
       "properties": {
         "id": 35,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 35
       },
       "geometry": {
@@ -531,7 +531,7 @@
       "type": "Feature",
       "properties": {
         "id": 36,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 36
       },
       "geometry": {
@@ -546,7 +546,7 @@
       "type": "Feature",
       "properties": {
         "id": 37,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 37
       },
       "geometry": {
@@ -561,7 +561,7 @@
       "type": "Feature",
       "properties": {
         "id": 38,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 38
       },
       "geometry": {
@@ -576,7 +576,7 @@
       "type": "Feature",
       "properties": {
         "id": 39,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 39
       },
       "geometry": {
@@ -591,7 +591,7 @@
       "type": "Feature",
       "properties": {
         "id": 40,
-        "link": "https://www.berlin.de",
+        "link": "https://plusb.gitlab.io/bule/projektsteckbrief.html",
         "name": 40
       },
       "geometry": {
